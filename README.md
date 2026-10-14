@@ -24,6 +24,6 @@ On Windows you can also double-click `run-tests.bat`.
 
 ## Notes
 
-- `tests/auth.setup.ts` logs in once and saves the session to `.auth/user.json` (git-ignored).
+- `tests/auth.setup.ts` logs in once and saves the session to `.auth/user.json`.
 - Tests run with one worker because they share a single test account.
-- Traces and screenshots from failed runs (`test-results/`, `playwright-report/`) may contain credentials, so they're git-ignored.
+- Traces and screenshots from failed runs (`test-results/`, `playwright-report/`) may contain credentials.
