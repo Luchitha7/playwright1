@@ -10,7 +10,7 @@ npx playwright install chromium
 cp .env.example .env   # then fill in the values
 ```
 
-All URLs, credentials, and expected account values come from `.env`, which is git-ignored. Never commit it.
+All URLs, credentials, and expected account values come from `.env`.
 
 ## Running
 
@@ -26,4 +26,4 @@ On Windows you can also double-click `run-tests.bat`.
 
 - `tests/auth.setup.ts` logs in once and saves the session to `.auth/user.json` (git-ignored).
 - Tests run with one worker because they share a single test account.
-- Traces and screenshots from failed runs (`test-results/`, `playwright-report/`) may contain credentials, so they're git-ignored. Don't share them publicly.
+- Traces and screenshots from failed runs (`test-results/`, `playwright-report/`) may contain credentials, so they're git-ignored.
