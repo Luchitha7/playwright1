@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# secrets / local config (never commit)
+.env
+.env.*
+!.env.example
+
+# saved login session (contains auth cookies/tokens)
+.auth/
+playwright/.auth/
+
+# test output (traces and screenshots may contain credentials and URLs)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
