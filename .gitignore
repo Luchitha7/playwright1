@@ -11,7 +11,7 @@ node_modules/
 playwright/.auth/
 
 # test output (traces and screenshots may contain credentials and URLs)
-test-results/
+test-results*/
 playwright-report/
 blob-report/
 playwright/.cache/
